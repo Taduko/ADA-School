@@ -3,5 +3,6 @@ decimal = 1.1
 cadena = "Hola"
 booleano = True
 
+#Concatenando todas las variables
 
-print(f'La variable entera tiene un valor de: {entero} y es de tipo: {type(entero)}')
+print("Entero: " + str(entero) + " Decimal: " + str(decimal) + " Cadena: " + cadena + " Booleano: " + str(booleano))
