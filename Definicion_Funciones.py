@@ -3,4 +3,6 @@ def saludar_nombre(nombre,mensaje):
     
 
 
-mensaje_total = saludar_nombre('Juan','Hamburguesa')
+mensaje_total = saludar_nombre(input('Ingrese su nombre: '),input('Ingrese su mensaje: '))
+
+
