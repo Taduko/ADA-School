@@ -1,7 +1,7 @@
-from rest_framework import generics, permissions # ahroa importamos permissions
-from .models import Post
-from .serializers import PostSerializer
-from django.shortcuts import render, get_object_or_404
+from rest_framework import generics, permissions # Importamos generics y permissions
+from .models import Post # Importamos el modelo Post
+from .serializers import PostSerializer # Importamos el serializador PostSerializer
+from django.shortcuts import render, get_object_or_404 # Importamos render y get_object_or_404
 
 class PostListCreateView(generics.ListCreateAPIView):
     queryset = Post.objects.all()
